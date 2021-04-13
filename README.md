@@ -2,11 +2,24 @@
 
 This code is based on Martin Porter's stemming algorithm.
 
-Here you can find the paper on http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.848.7219&rep=rep1&type=pdf
+Here you can find the original paper on http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.848.7219&rep=rep1&type=pdf
 
-And also a plain text version here https://tartarus.org/martin/PorterStemmer/def.txt
+And also there is plain text version: https://tartarus.org/martin/PorterStemmer/def.txt
+
+The main web page of the algorithm: https://tartarus.org/martin/PorterStemmer/
+
+There are two changes in the main algorithm as described in the above page since 1980. They are also included in the code base too.
+
+Code is tested with the official vocabulary and output txt files.
+
+[Sample vocabulary](https://tartarus.org/martin/PorterStemmer/voc.txt)
+[Output](https://tartarus.org/martin/PorterStemmer/output.txt)
 
 ### Example Usage
+
+```npm
+https://tartarus.org/martin/PorterStemmer/output.txt
+```
 
 ```code
 const stemmer = require("porter-stemmer-english") 
