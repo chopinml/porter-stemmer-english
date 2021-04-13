@@ -13,13 +13,18 @@ There are two changes in the main algorithm as described in the above page since
 Code is tested with the official vocabulary and output txt files.
 
 [Sample vocabulary](https://tartarus.org/martin/PorterStemmer/voc.txt)
+
 [Output](https://tartarus.org/martin/PorterStemmer/output.txt)
 
 ### Example Usage
 
+Install the library
+
 ```npm
-https://tartarus.org/martin/PorterStemmer/output.txt
+npm i porter-stemmer-english
 ```
+
+Call stemmer
 
 ```code
 const stemmer = require("porter-stemmer-english") 
